@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Об'єм труби</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Об'єм труби</h1>
+	<main>
+		<section class="wrapper">
+			<form class="form-search">
+				<div class="wrapper__search">
+					<div class="input" style="display: block;">
+						<label>Внутрішній діаметр, мм 
+							<input type="text" class="diametr" required>
+						</label>
+					</div>
+
+					<div class="input">
+						<label>Довжина, м
+							<input type="text" class="lenght" required>
+						</label>
+					</div>
+				</div>
+
+				<div class="wrapper__button">
+					<button type="submit" class="button button__search">
+						<span class="button__search-text">Розрахувати</span>
+					</button>
+				</div>
+
+				<div class="wrapper_result">
+				</div>
+			</form>
+		</section>
+	</main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
