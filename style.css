@@ -21,7 +21,7 @@
     max-width : 1000px;
     margin : 0 auto;
     }
-    .wrapper__search, .wrapper__button, .wrapper_result {
+   .wrapper__search, .wrapper__button, .wrapper_result, .copyright {
     display : flex;
     flex-wrap : wrap;
     justify-content : center;
